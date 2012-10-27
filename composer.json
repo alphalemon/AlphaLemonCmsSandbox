@@ -28,8 +28,8 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "alphalemon/alphalemon-cms-bundle": "dev-v1.0.0-beta",
-        "alphalemon/alphalemon-cms-installer-bundle": "dev-v1.0.0-beta",        
+        "alphalemon/alphalemon-cms-bundle": "v1.0.0-beta4",
+        "alphalemon/alphalemon-cms-installer-bundle": "v1.0.0-beta4",        
         "doctrine/common": "dev-bugfix as 2.3.0"
     },
     "scripts": {
