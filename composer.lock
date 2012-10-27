@@ -1,5 +1,5 @@
 {
-    "hash": "d59ed2861972eead184689c963e40df5",
+    "hash": "9528d81ee029031a2d72a37168616b56",
     "packages": [
         {
             "name": "alphalemon/alphalemon-bootstrap-bundle",
@@ -46,7 +46,7 @@
             "authors": [
                 {
                     "name": "AlphaLemon",
-                    "email": "webmaster@alphalemon.com"
+                    "email": "info@alphalemon.com"
                 }
             ],
             "description": "AlphaLemonBootstrapBundle takes care to autoload and configure bundles on a composer base application. The responsibility to configure the bundle is delegated to the bundle's author, who implements an autoloader.json file, where declares the bundle's configuration.",
@@ -60,17 +60,17 @@
         },
         {
             "name": "alphalemon/alphalemon-cms-bundle",
-            "version": "dev-v1.0.0-beta",
+            "version": "v1.0.0-beta4",
             "target-dir": "AlphaLemon/AlphaLemonCmsBundle",
             "source": {
                 "type": "git",
                 "url": "git://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "d32439cf429f0e5f8e7c261edabff6b99bae90cb"
+                "reference": "v1.0.0-beta4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/zipball/d32439cf429f0e5f8e7c261edabff6b99bae90cb",
-                "reference": "d32439cf429f0e5f8e7c261edabff6b99bae90cb",
+                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/zipball/v1.0.0-beta4",
+                "reference": "v1.0.0-beta4",
                 "shasum": ""
             },
             "require": {
@@ -99,9 +99,9 @@
                 "alphalemon/business-website-theme-bundle": "dev-master",
                 "doctrine/common": "dev-bugfix as 2.3.0"
             },
-            "time": "1350117567",
+            "time": "2012-10-26 21:32:10",
             "type": "symfony-bundle",
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "AlphaLemon\\AlphaLemonCmsBundle": "",
@@ -131,18 +131,18 @@
         },
         {
             "name": "alphalemon/alphalemon-cms-installer-bundle",
-            "version": "dev-v1.0.0-beta",
+            "version": "v1.0.0-beta4",
             "target-dir": "AlphaLemon/CmsInstallerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/CmsInstallerBundle",
-                "reference": "569f23d853196c319b61a882ffba0bfc869340a9"
+                "reference": "v1.0.0-beta4"
             },
             "require": {
                 "php": ">=5.3.2",
-                "alphalemon/alphalemon-cms-bundle": "dev-v1.0.0-beta"
+                "alphalemon/alphalemon-cms-bundle": "v1.0.0-beta4"
             },
-            "time": "1350120953",
+            "time": "2012-10-27 12:34:48",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -322,7 +322,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessWebsiteTheme",
-                "reference": "9cea50b62f85ca13d1a34884059b62778adad163"
+                "reference": "1790a0162c9af89bbca8e5a5f851d80aeeb50489"
             },
             "require": {
                 "alphalemon/app-business-dropcap-bundle": "dev-master",
@@ -330,7 +330,7 @@
                 "alphalemon/app-business-slider-bundle": "dev-master",
                 "alphalemon/app-business-carousel-bundle": "dev-master"
             },
-            "time": "1349802925",
+            "time": "1350922737",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -400,7 +400,7 @@
             "authors": [
                 {
                     "name": "AlphaLemon",
-                    "email": "webmaster@alphalemon.com"
+                    "email": "info@alphalemon.com"
                 }
             ],
             "description": "The ElFinderBundle encapsulates the elFinder file manager to be used in Symfony2.",
@@ -420,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle",
-                "reference": "edd3f6607d80a798046015b21b1e86bf655c4f44"
+                "reference": "e89d8691c228a4b4cc777ba2d6160e2dc969de95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/ThemeEngineBundle/zipball/edd3f6607d80a798046015b21b1e86bf655c4f44",
-                "reference": "edd3f6607d80a798046015b21b1e86bf655c4f44",
+                "url": "https://github.com/alphalemon/ThemeEngineBundle/zipball/e89d8691c228a4b4cc777ba2d6160e2dc969de95",
+                "reference": "e89d8691c228a4b4cc777ba2d6160e2dc969de95",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +446,7 @@
                 "sensio/framework-extra-bundle": "2.1.*",
                 "sensio/generator-bundle": "2.1.*"
             },
-            "time": "1349802721",
+            "time": "1351310421",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -460,7 +460,7 @@
             "authors": [
                 {
                     "name": "AlphaLemon",
-                    "email": "webmaster@alphalemon.com"
+                    "email": "info@alphalemon.com"
                 }
             ],
             "description": "ThemeEngineBundle adds theming feature to any Symfony2 application, adding themes packed as standard Symfony2 Bundles",
@@ -536,7 +536,7 @@
                 "persistence"
             ],
             "support": {
-                "source": "https://github.com/alphalemon/common/tree/master"
+                "source": "https://github.com/alphalemon/common/tree/bugfix"
             }
         },
         {
@@ -545,19 +545,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "219d96a1592e9e23087eb6861b4f8233d06c6463"
+                "reference": "9395ca33971c0ff875d71a0271e6c0d5b0f01508"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/zipball/219d96a1592e9e23087eb6861b4f8233d06c6463",
-                "reference": "219d96a1592e9e23087eb6861b4f8233d06c6463",
+                "url": "https://github.com/doctrine/dbal/zipball/9395ca33971c0ff875d71a0271e6c0d5b0f01508",
+                "reference": "9395ca33971c0ff875d71a0271e6c0d5b0f01508",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "1349518912",
+            "time": "1350419590",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -965,7 +965,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1048,12 +1048,12 @@
             "source": {
                 "type": "git",
                 "url": "http://github.com/kriswallsmith/assetic.git",
-                "reference": "e22c5e07e672bb0cf43127e97e9368b53abf4aa8"
+                "reference": "a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/kriswallsmith/assetic/zipball/e22c5e07e672bb0cf43127e97e9368b53abf4aa8",
-                "reference": "e22c5e07e672bb0cf43127e97e9368b53abf4aa8",
+                "url": "https://github.com/kriswallsmith/assetic/zipball/a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc",
+                "reference": "a1b6fa1f7bb27c203b6c3cf7d0dd0184f8dffcdc",
                 "shasum": ""
             },
             "require": {
@@ -1074,7 +1074,7 @@
                 "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
                 "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin"
             },
-            "time": "1349004759",
+            "time": "1351079542",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1144,12 +1144,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog",
-                "reference": "09b3a80cfaf3e323e348a5e817afeee98d5e6b48"
+                "reference": "38bb472abb27db138536f845f7d259c1c47bbd3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Seldaek/monolog/zipball/09b3a80cfaf3e323e348a5e817afeee98d5e6b48",
-                "reference": "09b3a80cfaf3e323e348a5e817afeee98d5e6b48",
+                "url": "https://github.com/Seldaek/monolog/zipball/38bb472abb27db138536f845f7d259c1c47bbd3f",
+                "reference": "38bb472abb27db138536f845f7d259c1c47bbd3f",
                 "shasum": ""
             },
             "require": {
@@ -1163,7 +1163,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server"
             },
-            "time": "1347983448",
+            "time": "1351084926",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1247,12 +1247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/PropelBundle",
-                "reference": "ea7653d2c744285656d2ebcf44f18ddcdc0f39dd"
+                "reference": "15a5e74c272cdc6d51c02e8129fa96bfaf7ee5ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/propelorm/PropelBundle/zipball/ea7653d2c744285656d2ebcf44f18ddcdc0f39dd",
-                "reference": "ea7653d2c744285656d2ebcf44f18ddcdc0f39dd",
+                "url": "https://github.com/propelorm/PropelBundle/zipball/15a5e74c272cdc6d51c02e8129fa96bfaf7ee5ac",
+                "reference": "15a5e74c272cdc6d51c02e8129fa96bfaf7ee5ac",
                 "shasum": ""
             },
             "require": {
@@ -1260,10 +1260,10 @@
                 "propel/propel1": "1.6.*"
             },
             "require-dev": {
-                "sensio/framework-extra-bundle": "dev-master",
-                "fzaninotto/faker": "dev-master"
+                "fzaninotto/faker": "dev-master",
+                "sensio/framework-extra-bundle": ">=2.1"
             },
-            "time": "1345831154",
+            "time": "1350822076",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -1276,7 +1276,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -1294,19 +1294,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel",
-                "reference": "88febadd8ae3687cae89192ec0ab57949de8d693"
+                "reference": "65c62d4377c9dd98cec32c0e29b9f87c8059ffd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/propelorm/Propel/zipball/88febadd8ae3687cae89192ec0ab57949de8d693",
-                "reference": "88febadd8ae3687cae89192ec0ab57949de8d693",
+                "url": "https://github.com/propelorm/Propel/zipball/65c62d4377c9dd98cec32c0e29b9f87c8059ffd5",
+                "reference": "65c62d4377c9dd98cec32c0e29b9f87c8059ffd5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4",
                 "phing/phing": ">=2.4.12,2.4.*"
             },
-            "time": "1349389560",
+            "time": "1351171625",
             "bin": [
                 "generator/bin/propel-gen",
                 "generator/bin/propel-gen.bat"
@@ -1333,7 +1333,7 @@
             ],
             "authors": [
                 {
-                    "name": "William DURAND",
+                    "name": "William Durand",
                     "email": "william.durand1@gmail.com",
                     "homepage": "http://www.willdurand.fr"
                 }
@@ -1401,19 +1401,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensio/SensioFrameworkExtraBundle",
-                "reference": "53a2a5e5ba052b2ae281f3b8bd9b530947a328b4"
+                "reference": "6a63ea91085be5073d8928fd48fa53734b3c2a57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sensio/SensioFrameworkExtraBundle/zipball/53a2a5e5ba052b2ae281f3b8bd9b530947a328b4",
-                "reference": "53a2a5e5ba052b2ae281f3b8bd9b530947a328b4",
+                "url": "https://github.com/sensio/SensioFrameworkExtraBundle/zipball/6a63ea91085be5073d8928fd48fa53734b3c2a57",
+                "reference": "6a63ea91085be5073d8928fd48fa53734b3c2a57",
                 "shasum": ""
             },
             "require": {
                 "symfony/framework-bundle": "2.1.*",
                 "doctrine/common": ">=2.1,<2.4-dev"
             },
-            "time": "1349786071",
+            "time": "1350448707",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1491,29 +1491,29 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "dev-master",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "git://github.com/swiftmailer/swiftmailer.git",
-                "reference": "22731e907f5ca288c9bfde6b54f3611ace0a6c39"
+                "reference": "v4.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/swiftmailer/swiftmailer/zipball/22731e907f5ca288c9bfde6b54f3611ace0a6c39",
-                "reference": "22731e907f5ca288c9bfde6b54f3611ace0a6c39",
+                "url": "https://github.com/swiftmailer/swiftmailer/zipball/v4.2.2",
+                "reference": "v4.2.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1349196829",
+            "time": "2012-10-25 01:30:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "4.2-dev"
                 }
             },
-            "installation-source": "source",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "lib/swift_required.php"
@@ -1545,12 +1545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle",
-                "reference": "bc7cddba9b63ca47d3e1eba725cae1a52ec32897"
+                "reference": "4eea8571954132e4715a5e756fe6a90a7e2d90f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/AsseticBundle/zipball/bc7cddba9b63ca47d3e1eba725cae1a52ec32897",
-                "reference": "bc7cddba9b63ca47d3e1eba725cae1a52ec32897",
+                "url": "https://github.com/symfony/AsseticBundle/zipball/4eea8571954132e4715a5e756fe6a90a7e2d90f6",
+                "reference": "4eea8571954132e4715a5e756fe6a90a7e2d90f6",
                 "shasum": ""
             },
             "require": {
@@ -1570,7 +1570,7 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1.0,<2.3-dev"
             },
-            "time": "1349897943",
+            "time": "1350864366",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1663,12 +1663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/SwiftmailerBundle",
-                "reference": "231d05f51c3dddd0d45500ec7d22a5315a0ce84f"
+                "reference": "2393ba6d4f1b544349123e24a16bbc749bef9e55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/SwiftmailerBundle/zipball/231d05f51c3dddd0d45500ec7d22a5315a0ce84f",
-                "reference": "231d05f51c3dddd0d45500ec7d22a5315a0ce84f",
+                "url": "https://github.com/symfony/SwiftmailerBundle/zipball/2393ba6d4f1b544349123e24a16bbc749bef9e55",
+                "reference": "2393ba6d4f1b544349123e24a16bbc749bef9e55",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 "symfony/config": ">=2.1.0,<2.3-dev",
                 "symfony/yaml": ">=2.1.0,<2.3-dev"
             },
-            "time": "1350120593",
+            "time": "1350447491",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1717,12 +1717,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "854015265c24a7524d95d4ee57c59f2836d60dc1"
+                "reference": "5155aecb3ac85597d7a70ac57899c860a6031501"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/zipball/854015265c24a7524d95d4ee57c59f2836d60dc1",
-                "reference": "854015265c24a7524d95d4ee57c59f2836d60dc1",
+                "url": "https://github.com/symfony/symfony/zipball/5155aecb3ac85597d7a70ac57899c860a6031501",
+                "reference": "5155aecb3ac85597d7a70ac57899c860a6031501",
                 "shasum": ""
             },
             "require": {
@@ -1769,9 +1769,9 @@
                 "doctrine/orm": ">=2.2.3,<2.4-dev",
                 "doctrine/data-fixtures": "1.0.*",
                 "propel/propel1": "dev-master",
-                "monolog/monolog": "dev-master"
+                "monolog/monolog": "1.*"
             },
-            "time": "1349963062",
+            "time": "1351255755",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1857,22 +1857,22 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "e1e9802c562aa4e8f8d5a8d3faaed6f235a38d2f"
+                "reference": "61393dc9fb8982110048624aa573aec4aee0b465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/e1e9802c562aa4e8f8d5a8d3faaed6f235a38d2f",
-                "reference": "e1e9802c562aa4e8f8d5a8d3faaed6f235a38d2f",
+                "url": "https://github.com/fabpot/Twig/zipball/61393dc9fb8982110048624aa573aec4aee0b465",
+                "reference": "61393dc9fb8982110048624aa573aec4aee0b465",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1350053600",
+            "time": "1350737598",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.10-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "installation-source": "source",
@@ -1954,7 +1954,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "alphalemon/alphalemon-cms-bundle": 20,
-        "alphalemon/alphalemon-cms-installer-bundle": 20
+        "alphalemon/alphalemon-cms-bundle": 10,
+        "alphalemon/alphalemon-cms-installer-bundle": 10,
+        "doctrine/common": 20
     }
 }
