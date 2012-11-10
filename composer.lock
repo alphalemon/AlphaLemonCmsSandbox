@@ -424,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle",
-                "reference": "fe172ea0df0383871b9a15b1aaf76442520301c2"
+                "reference": "8e0eabc161c1ee0e219bcd27c972ecec1b854481"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/fe172ea0df0383871b9a15b1aaf76442520301c2.zip",
-                "reference": "fe172ea0df0383871b9a15b1aaf76442520301c2",
+                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/8e0eabc161c1ee0e219bcd27c972ecec1b854481.zip",
+                "reference": "8e0eabc161c1ee0e219bcd27c972ecec1b854481",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +451,7 @@
                 "mikey179/vfsstream": "dev-master",
                 "alphalemon/business-website-theme-bundle": "dev-master"
             },
-            "time": "1352527508",
+            "time": "1352534649",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
