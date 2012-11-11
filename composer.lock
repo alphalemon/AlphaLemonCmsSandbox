@@ -1,5 +1,5 @@
 {
-    "hash": "6a0cf941bea42846c73ae6f9982dc6ec",
+    "hash": "ba9a2e8ed5569b4c9d8336f5d4db2a27",
     "packages": [
         {
             "name": "alphalemon/alphalemon-bootstrap-bundle",
@@ -60,17 +60,17 @@
         },
         {
             "name": "alphalemon/alphalemon-cms-bundle",
-            "version": "v1.0.0-RC3",
+            "version": "v1.0.0-RC4",
             "target-dir": "AlphaLemon/AlphaLemonCmsBundle",
             "source": {
                 "type": "git",
                 "url": "git://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "v1.0.0-RC3"
+                "reference": "v1.0.0-RC4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/v1.0.0-RC3.zip",
-                "reference": "v1.0.0-RC3",
+                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/v1.0.0-RC4.zip",
+                "reference": "v1.0.0-RC4",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "willdurand/propel-typehintable-behavior": "dev-master",
                 "mikey179/vfsstream": "dev-master"
             },
-            "time": "2012-11-10 06:02:19",
+            "time": "2012-11-11 10:28:52",
             "type": "symfony-bundle",
             "installation-source": "dist",
             "autoload": {
@@ -326,7 +326,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessWebsiteTheme",
-                "reference": "00aea2d865c1498261a2b510766851b805c7f0bf"
+                "reference": "6df9cba34be7bfb8362899fdeb32bddc8426e291"
             },
             "require": {
                 "alphalemon/app-business-dropcap-bundle": "dev-master",
@@ -334,7 +334,7 @@
                 "alphalemon/app-business-slider-bundle": "dev-master",
                 "alphalemon/app-business-carousel-bundle": "dev-master"
             },
-            "time": "1351935961",
+            "time": "1352633584",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -424,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle",
-                "reference": "8e0eabc161c1ee0e219bcd27c972ecec1b854481"
+                "reference": "ba6bc5cd5b1a22444b7c1f089292b6405dfaa936"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/8e0eabc161c1ee0e219bcd27c972ecec1b854481.zip",
-                "reference": "8e0eabc161c1ee0e219bcd27c972ecec1b854481",
+                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/ba6bc5cd5b1a22444b7c1f089292b6405dfaa936.zip",
+                "reference": "ba6bc5cd5b1a22444b7c1f089292b6405dfaa936",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +451,7 @@
                 "mikey179/vfsstream": "dev-master",
                 "alphalemon/business-website-theme-bundle": "dev-master"
             },
-            "time": "1352534649",
+            "time": "1352629073",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -614,19 +614,20 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/DoctrineBundle.git",
-                "reference": "1cfd5691283f4b32cfea87e8c8e28d502902c825"
+                "reference": "4fa47caf19c426d607a636b2da73bc0e5a87ec66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineBundle/archive/1cfd5691283f4b32cfea87e8c8e28d502902c825.zip",
-                "reference": "1cfd5691283f4b32cfea87e8c8e28d502902c825",
+                "url": "https://github.com/doctrine/DoctrineBundle/archive/4fa47caf19c426d607a636b2da73bc0e5a87ec66.zip",
+                "reference": "4fa47caf19c426d607a636b2da73bc0e5a87ec66",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/dbal": ">=2.2,<2.4-dev",
                 "symfony/framework-bundle": ">=2.1,<2.3-dev",
-                "symfony/doctrine-bridge": ">=2.1,<2.3-dev"
+                "symfony/doctrine-bridge": ">=2.1,<2.3-dev",
+                "jdorn/sql-formatter": "1.0.1"
             },
             "require-dev": {
                 "doctrine/orm": ">=2.2,<2.4-dev",
@@ -636,7 +637,7 @@
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle."
             },
-            "time": "1352365569",
+            "time": "1352579798",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -790,6 +791,53 @@
                 "image processing",
                 "drawing",
                 "graphics"
+            ]
+        },
+        {
+            "name": "jdorn/sql-formatter",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/jdorn/sql-formatter.git",
+                "reference": "v1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/jdorn/sql-formatter/zipball/v1.0.1",
+                "reference": "v1.0.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "time": "2012-10-04 22:10:16",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Dorn",
+                    "email": "jeremy@jeremydorn.com",
+                    "homepage": "http://jeremydorn.com/"
+                }
+            ],
+            "description": "a PHP SQL highlighting library",
+            "homepage": "https://github.com/jdorn/sql-formatter/",
+            "keywords": [
+                "sql",
+                "highlight"
             ]
         },
         {
@@ -1299,19 +1347,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel",
-                "reference": "a6b98bd1c504d19d31772129f45826b8073ffd46"
+                "reference": "73d41e8914ad3f72cd0ba39a048962b6ac52002f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/propelorm/Propel/archive/a6b98bd1c504d19d31772129f45826b8073ffd46.zip",
-                "reference": "a6b98bd1c504d19d31772129f45826b8073ffd46",
+                "url": "https://github.com/propelorm/Propel/archive/73d41e8914ad3f72cd0ba39a048962b6ac52002f.zip",
+                "reference": "73d41e8914ad3f72cd0ba39a048962b6ac52002f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4",
-                "phing/phing": ">=2.4.12,2.4.*"
+                "phing/phing": "2.4.12"
             },
-            "time": "1352223514",
+            "time": "1352549721",
             "bin": [
                 "generator/bin/propel-gen",
                 "generator/bin/propel-gen.bat"
@@ -1722,12 +1770,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "de63128cabc9c0b0367bb5d7d0fba02309716bd3"
+                "reference": "d9b291b87878969dc64aca1c434e804f4f8dc9ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/de63128cabc9c0b0367bb5d7d0fba02309716bd3.zip",
-                "reference": "de63128cabc9c0b0367bb5d7d0fba02309716bd3",
+                "url": "https://github.com/symfony/symfony/archive/d9b291b87878969dc64aca1c434e804f4f8dc9ff.zip",
+                "reference": "d9b291b87878969dc64aca1c434e804f4f8dc9ff",
                 "shasum": ""
             },
             "require": {
@@ -1776,7 +1824,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "1352478730",
+            "time": "1352572826",
             "type": "library",
             "extra": {
                 "branch-alias": {
