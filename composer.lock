@@ -1,5 +1,5 @@
 {
-    "hash": "01dd05fcff91c465dcd3786301539c5b",
+    "hash": "0ed66b71f91a888fe3967339f22715ce",
     "packages": [
         {
             "name": "alphalemon/alphalemon-bootstrap-bundle",
@@ -8,12 +8,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BootstrapBundle",
-                "reference": "47bbd16c9f68c31db609a4c3acba8aca723f453f"
+                "reference": "3a60c49fd60cdb4a3ceb4fe4ebcbafd3e93314ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/BootstrapBundle/archive/47bbd16c9f68c31db609a4c3acba8aca723f453f.zip",
-                "reference": "47bbd16c9f68c31db609a4c3acba8aca723f453f",
+                "url": "https://github.com/alphalemon/BootstrapBundle/archive/3a60c49fd60cdb4a3ceb4fe4ebcbafd3e93314ce.zip",
+                "reference": "3a60c49fd60cdb4a3ceb4fe4ebcbafd3e93314ce",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "sensio/generator-bundle": "2.1.*",
                 "symfony/symfony": "2.1.*"
             },
-            "time": "2012-11-05 11:36:07",
+            "time": "2012-11-25 15:06:13",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -60,17 +60,17 @@
         },
         {
             "name": "alphalemon/alphalemon-cms-bundle",
-            "version": "v1.0.0-RC5",
+            "version": "v1.0.0-RC6",
             "target-dir": "AlphaLemon/AlphaLemonCmsBundle",
             "source": {
                 "type": "git",
                 "url": "git://github.com/alphalemon/AlphaLemonCmsBundle.git",
-                "reference": "v1.0.0-RC5"
+                "reference": "v1.0.0-RC6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/v1.0.0-RC5.zip",
-                "reference": "v1.0.0-RC5",
+                "url": "https://github.com/alphalemon/AlphaLemonCmsBundle/archive/v1.0.0-RC6.zip",
+                "reference": "v1.0.0-RC6",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "willdurand/propel-typehintable-behavior": "dev-master",
                 "mikey179/vfsstream": "dev-master"
             },
-            "time": "2012-11-22 11:59:35",
+            "time": "2012-11-25 16:46:24",
             "type": "symfony-bundle",
             "installation-source": "dist",
             "autoload": {
@@ -178,12 +178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessCarouselBundle",
-                "reference": "9829bf86a19b83d09812fca91dc98ea57c11891b"
+                "reference": "f7a3e5604af8e15c363f31ebce9700d14cdc83be"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-11-04 14:32:43",
+            "time": "2012-11-25 16:34:12",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -215,12 +215,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessDropCapBundle",
-                "reference": "6f88424fbb1a37150f869846c5fc2e03885ed631"
+                "reference": "ad319475f75ef03047d65224b69459c1df74a9bf"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-11-04 14:33:27",
+            "time": "2012-11-25 16:33:10",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -252,12 +252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessMenuBundle",
-                "reference": "2d5cbb5ae19d3f70b1a7e2bb0bb2e7b7033b20d2"
+                "reference": "bf66abdfa24055d95fbe20f7494a7afa3f8d55da"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-11-04 14:34:08",
+            "time": "2012-11-25 16:35:25",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -289,12 +289,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessSliderBundle",
-                "reference": "2d74f2e61ae1d17009ad0e58f518e03495298162"
+                "reference": "3703c9bd4f2f367a809b61f62975a9f53ae8a5b5"
             },
             "require-dev": {
                 "alphalemon/alphalemon-cms-bundle": "dev-master"
             },
-            "time": "2012-10-13 08:36:45",
+            "time": "2012-11-25 16:35:55",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -326,7 +326,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/BusinessWebsiteTheme",
-                "reference": "6df9cba34be7bfb8362899fdeb32bddc8426e291"
+                "reference": "93f4b47c17c53be2b392fe9e98a190114117e0cd"
             },
             "require": {
                 "alphalemon/app-business-dropcap-bundle": "dev-master",
@@ -334,7 +334,7 @@
                 "alphalemon/app-business-slider-bundle": "dev-master",
                 "alphalemon/app-business-carousel-bundle": "dev-master"
             },
-            "time": "2012-11-11 11:33:04",
+            "time": "2012-11-25 16:32:11",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -424,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alphalemon/ThemeEngineBundle",
-                "reference": "ca0afaebb7da5a54146d45a42f7c4ade79d8420a"
+                "reference": "c085bf25093530f37446f43e1f73cfd5406d8f95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/ca0afaebb7da5a54146d45a42f7c4ade79d8420a.zip",
-                "reference": "ca0afaebb7da5a54146d45a42f7c4ade79d8420a",
+                "url": "https://github.com/alphalemon/ThemeEngineBundle/archive/c085bf25093530f37446f43e1f73cfd5406d8f95.zip",
+                "reference": "c085bf25093530f37446f43e1f73cfd5406d8f95",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +451,7 @@
                 "mikey179/vfsstream": "dev-master",
                 "alphalemon/business-website-theme-bundle": "dev-master"
             },
-            "time": "2012-11-22 12:05:06",
+            "time": "2012-11-25 16:50:13",
             "type": "symfony-bundle",
             "installation-source": "source",
             "autoload": {
@@ -550,19 +550,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "292d5edd17e0a9b9a7ee9eb20d6ae1033059153f"
+                "reference": "ef930a7ff1c06a1693c8783c1eb9e32d22e68dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/archive/292d5edd17e0a9b9a7ee9eb20d6ae1033059153f.zip",
-                "reference": "292d5edd17e0a9b9a7ee9eb20d6ae1033059153f",
+                "url": "https://github.com/doctrine/dbal/archive/ef930a7ff1c06a1693c8783c1eb9e32d22e68dba.zip",
+                "reference": "ef930a7ff1c06a1693c8783c1eb9e32d22e68dba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "2012-11-12 10:41:11",
+            "time": "2012-11-25 12:04:36",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -682,12 +682,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/doctrine2.git",
-                "reference": "77d060ab74212919f1eaace72842ea43bf420f43"
+                "reference": "1aab5feb4a6e21204277264fc8d90b7a0723577c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/doctrine2/archive/77d060ab74212919f1eaace72842ea43bf420f43.zip",
-                "reference": "77d060ab74212919f1eaace72842ea43bf420f43",
+                "url": "https://github.com/doctrine/doctrine2/archive/1aab5feb4a6e21204277264fc8d90b7a0723577c.zip",
+                "reference": "1aab5feb4a6e21204277264fc8d90b7a0723577c",
                 "shasum": ""
             },
             "require": {
@@ -699,7 +699,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
             },
-            "time": "2012-11-12 14:49:41",
+            "time": "2012-11-25 11:34:47",
             "bin": [
                 "bin/doctrine",
                 "bin/doctrine.php"
@@ -975,7 +975,7 @@
                 {
                     "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -1347,19 +1347,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/propelorm/Propel",
-                "reference": "e9ef7b1111163806193b55a7af40477d44b2b519"
+                "reference": "e0ef80b0c37b17095cad9aede1697b2734f510e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/propelorm/Propel/archive/e9ef7b1111163806193b55a7af40477d44b2b519.zip",
-                "reference": "e9ef7b1111163806193b55a7af40477d44b2b519",
+                "url": "https://github.com/propelorm/Propel/archive/e0ef80b0c37b17095cad9aede1697b2734f510e1.zip",
+                "reference": "e0ef80b0c37b17095cad9aede1697b2734f510e1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4",
                 "phing/phing": "2.4.12"
             },
-            "time": "2012-11-21 01:52:25",
+            "time": "2012-11-24 14:25:50",
             "bin": [
                 "generator/bin/propel-gen",
                 "generator/bin/propel-gen.bat"
@@ -1770,12 +1770,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "aa124288676648f727370876ccdf6dd7f208dc46"
+                "reference": "2adb781b238e8dfc9536babdaa03f538c47ddc34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/aa124288676648f727370876ccdf6dd7f208dc46.zip",
-                "reference": "aa124288676648f727370876ccdf6dd7f208dc46",
+                "url": "https://github.com/symfony/symfony/archive/2adb781b238e8dfc9536babdaa03f538c47ddc34.zip",
+                "reference": "2adb781b238e8dfc9536babdaa03f538c47ddc34",
                 "shasum": ""
             },
             "require": {
@@ -1824,7 +1824,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "2012-11-21 15:37:43",
+            "time": "2012-11-25 11:00:36",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1910,18 +1910,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "9b75e2c7ae51b66fd4bb2ffbf1d2f28a8604e8f6"
+                "reference": "b4743dcfaf48132203b467c5f5993e18f4f8f4c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/9b75e2c7ae51b66fd4bb2ffbf1d2f28a8604e8f6.zip",
-                "reference": "9b75e2c7ae51b66fd4bb2ffbf1d2f28a8604e8f6",
+                "url": "https://github.com/fabpot/Twig/archive/b4743dcfaf48132203b467c5f5993e18f4f8f4c1.zip",
+                "reference": "b4743dcfaf48132203b467c5f5993e18f4f8f4c1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-11-19 07:06:38",
+            "time": "2012-11-25 12:44:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
